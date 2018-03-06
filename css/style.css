@@ -1,0 +1,29 @@
+body {
+    background-color: chocolate;
+    color: white;
+}
+/*
+p {
+    text-align: justify;
+}
+*/
+.titre {
+    text-align: center;
+    color : blue;
+}
+
+.logo {
+    float: left; 
+}
+
+.paragraphe {
+    text-align: justify;
+}
+
+a[title*="Cliquez ici"] {
+    color : yellow;
+}
+
+#signature {
+    text-align: right;
+}
