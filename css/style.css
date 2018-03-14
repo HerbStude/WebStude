@@ -1,6 +1,19 @@
+/*
+ * style.css
+ * # sont déstiné au id
+ * . sont destiné au class
+ *
+*/
+
+/*********************
+ * @auteur Ryclos 
+ * @auteur 
+ * @auteur
+**********************/
+
 body {
-    background-color: chocolate;
-    color: white;
+    background-color: #2e2e2e;
+    color : white;
 }
 /*
 p {
@@ -9,15 +22,17 @@ p {
 */
 .titre {
     text-align: center;
-    color : blue;
+    color : #ffd000;
 }
 
 .logo {
-    float: left; 
+    float: left;
 }
 
 .paragraphe {
     text-align: justify;
+    font-size: 25px;
+
 }
 
 a[title*="Cliquez ici"] {
