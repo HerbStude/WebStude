@@ -1,0 +1,52 @@
+.test_paragraphe
+{
+    background-color: chocolate;
+    text-align: center;
+    font-size: 15px;
+}
+
+#test_unique
+{
+    color: forestgreen;
+    text-align: right;
+    font-size: 10px;
+    background-color:beige;
+}
+
+.enligne
+{
+    display: inline;
+    background-color: chartreuse;
+}
+
+.toute_la_ligne
+{
+    display: block;
+    background-color:aqua;
+}
+
+.enligne_plus_block
+{
+    display: inline-block;
+    background-color: brown;
+    width: 300px;
+}
+
+a:link
+{
+    color: red;
+}
+
+a:visited
+{
+    color: green;
+}
+
+a:hover
+{
+    color: aqua;
+}
+
+#signature {
+    text-align: right;
+}
