@@ -1,0 +1,78 @@
+/*
+ * style.css
+ * # sont déstiné au id
+ * . sont destiné au class
+ *
+*/
+
+/*********************
+ * @auteur Ryclos 
+ * @auteur 
+ * @auteur
+**********************/
+
+body {
+    background-color: #2e2e2e;
+    color : white;
+    margin: 0px;
+    padding : 0px;
+    z-index: 0;
+}
+
+.fond {
+    position : absolute;
+	width: 1920px; height: 1080px;
+	top: 0px;
+	background-image:url(img/galaxy.jpg);
+	z-index:1;
+}
+
+a.bouton {
+    position: relative;
+    margin: right;
+    padding: 15px 60px;
+    background: #C9001A;
+    color: #FFFFFF;
+    -webkit-transition: all 1.8s ease-out 0s;
+    -moz-transition: all 1.8s ease-out 0s;
+    transition: all 1.8s ease-out 0s;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    border: 4px solid #000000;
+    font-size: 24px;
+    font-family: 'Courier New', Courier, monospace;
+    }
+    a.bouton:hover {
+    background: #8FCF3C;
+    color: #000000;
+    border: 4px solid #34393E;
+    }
+
+#encadre {
+	position :relative;
+	width: 1200px; height : 750px;
+    top : 100px;
+	margin-left : auto; margin-right : auto;
+	overflow :hidden;
+	border-color:#fd0000;
+	border-style:solid;
+	border-width:2px;
+	border-radius:45px;
+}
+
+.accueil {
+    color : black;
+    text-align: center;
+    z-index: 0;
+}
+
+.titre {
+    text-align: center;
+    color : #00c3ff;
+}
+
+#signature {
+    
+    text-align: right;
+}
