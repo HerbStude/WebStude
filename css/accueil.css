@@ -29,12 +29,32 @@ body {
 }
 
 #centre_bouton {
-    margin: auto auto;
+/*
+    position: absolute;
+    width:inherit;
+    height: inherit;
+    top:37.6;
+
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 50%;
+    
+*/
+ position:absolute;
+    left: 50%;
+    top: 50%;
+    width: 400px;
+    height: 400px;
+    margin-left: -200px; /* Cette valeur doit être la moitié négative de la valeur du width */
+    margin-top: -200px; /* Cette valeur doit être la moitié négative de la valeur du height */
 }
 
 a.bouton {
     position: relative;
     margin: auto auto;
+    top: 200px;
     padding: 15px 60px;
     background: #C9001A;
     color: #FFFFFF;
