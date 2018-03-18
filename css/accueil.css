@@ -54,6 +54,9 @@ a.bouton {
     border: 4px solid #000000;
     font-size: 24px;
     font-family: 'Courier New', Courier, monospace;
+    display:flex; 
+    justify-content: center; 
+    align-items:center;
 }
 
 a.bouton:hover {
